@@ -1,65 +1,285 @@
-<div dir="rtl" style="max-width: 600px; margin: auto; font-family: Assistant, Arial, sans-serif; padding: 30px; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>נשים תחת המכונית - קורס מוסכניקיות מתחילות</title>
+    <style>
+        body {
+            font-family: Assistant, Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
 
-   <h1 style="text-align: center; color: #2c3e50; font-size: 38px; margin-bottom: 25px; text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">
-       🔧 נשים תחת המכונית
-       <div style="font-size: 24px; color: #34495e; margin-top: 10px;">
-           קורס מוסכניקיות מתחילות
-       </div>
-   </h1>
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 30px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
 
-   <div style="background: white; padding: 30px; border-radius: 15px; margin-bottom: 25px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
-       <h2 style="color: #34495e; text-align: center; font-size: 22px; line-height: 1.4; margin-bottom: 20px;">
-           "כי הגיע הזמן שגם אנחנו נדע מה קורה מתחת למכסה המנוע,
-           <br>ולא רק מתחת לאיפור" 💄🔨
-       </h2>
+        header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
 
-       <div style="margin: 25px 0;">
-           <h3 style="color: #2980b9; font-size: 24px; border-bottom: 2px solid #3498db; padding-bottom: 10px;">
-               מה נלמד בקורס:
-           </h3>
-           <ul style="list-style-type: none; padding: 0; margin-top: 15px;">
-               <li style="margin: 12px 0; font-size: 18px;">✨ יסודות מכניקת הרכב - מהברגים ועד המנוע</li>
-               <li style="margin: 12px 0; font-size: 18px;">✨ טיפולים שוטפים ותחזוקה חכמה</li>
-               <li style="margin: 12px 0; font-size: 18px;">✨ זיהוי תקלות ופתרונן בשטח</li>
-               <li style="margin: 12px 0; font-size: 18px;">✨ עבודה מעשית במוסך מקצועי</li>
-               <li style="margin: 12px 0; font-size: 18px;">✨ ביטחון עצמי בעולם הרכב</li>
-           </ul>
-       </div>
+        h1 {
+            color: #2c3e50;
+            font-size: 38px;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
 
-       <div style="margin: 25px 0;">
-           <h3 style="color: #2980b9; font-size: 24px; border-bottom: 2px solid #3498db; padding-bottom: 10px;">
-               למה דווקא אצלנו?
-           </h3>
-           <ul style="list-style-type: none; padding: 0; margin-top: 15px;">
-               <li style="margin: 12px 0; font-size: 18px;">👩‍🔧 מדריכות מקצועיות עם ניסיון רב</li>
-               <li style="margin: 12px 0; font-size: 18px;">👥 קבוצות קטנות ויחס אישי</li>
-               <li style="margin: 12px 0; font-size: 18px;">💪 אווירה תומכת ומעצימה לנשים</li>
-               <li style="margin: 12px 0; font-size: 18px;">🎓 תעודת הסמכה בסיום הקורס</li>
-           </ul>
-       </div>
-   </div>
+        h2 {
+            color: #34495e;
+            font-size: 24px;
+            margin-top: 10px;
+        }
 
-   <div style="text-align: center; background: #2c3e50; color: white; padding: 25px; border-radius: 15px; margin-bottom: 20px;">
-       <h3 style="font-size: 26px; margin-bottom: 15px;">הרשמה ופרטים:</h3>
-       <p style="font-size: 22px; margin: 10px 0;">קים ועלמה - המוסכניקיות</p>
-       <p style="font-size: 24px; margin: 15px 0;">טלפון: ___________</p>
-       <p style="font-size: 18px; color: #ecf0f1;">מספר המקומות מוגבל - כל הקודמת זוכה!</p>
-   </div>
+        .intro {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
 
-   <div style="text-align: center; margin-top: 20px;">
-       <p style="color: #34495e; font-size: 20px; font-style: italic;">
-           "כי אישה שיודעת להחליף גלגל, יכולה להזיז את העולם" 🌍
-       </p>
-       <p style="color: #7f8c8d; font-size: 16px; margin-top: 10px;">
-           * הקורס מתאים לכל אישה - גם אם את לא יודעת להבדיל בין מברג לפטיש! 🔨
-       </p>
-   </div>
-       <div style="text-align: center; margin: 20px 0;">
-        <img src="image.jpeg" 
-             alt="קורס מוסכניקיות" 
-             style="width: 100%; 
-                    max-width: 600px; 
-                    border-radius: 15px;
-                    box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        .intro h2 {
+            text-align: center;
+            line-height: 1.4;
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin: 25px 0;
+        }
+
+        h3 {
+            color: #2980b9;
+            font-size: 24px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 15px;
+        }
+
+        li {
+            margin: 12px 0;
+            font-size: 18px;
+        }
+
+        li::before {
+            content: "✨";
+            margin-right: 8px;
+        }
+
+        .why-us li::before {
+            content: "👩‍🔧"; 
+        }
+        .why-us li:nth-child(2)::before {
+            content: "👥";
+        }
+        .why-us li:nth-child(3)::before {
+            content: "💪";
+        }
+        .why-us li:nth-child(4)::before {
+            content: "🎓";
+        }
+
+        footer {
+            text-align: center;
+            background: #2c3e50;
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+
+        footer h3 {
+            font-size: 26px;
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        footer p {
+            font-size: 22px;
+            margin: 10px 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 20px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #2980b9;
+        }
+
+        .closing {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .closing p {
+            color: #34495e;
+            font-size: 20px;
+            font-style: italic;
+        }
+
+        .closing p:last-child {
+            color: #7f8c8d;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 500px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            h3 {
+                font-size: 22px;
+            }
+
+            li {
+                font-size: 16px;
+            }
+
+            footer h3 {
+                font-size: 24px;
+            }
+
+            footer p {
+                font-size: 20px;
+            }
+
+            .cta-button {
+                font-size: 18px;
+            }
+            .closing p {
+                font-size: 18px;
+            }
+            .closing p:last-child {
+                 font-size: 14px;
+             }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔧 נשים תחת המכונית</h1>
+            <h2>קורס מוסכניקיות מתחילות</h2>
+        </header>
+
+        <article class="intro">
+            <h2>"כי הגיע הזמן שגם אנחנו נדע מה קורה מתחת למכסה המנוע, <br>ולא רק מתחת לאיפור" 💄🔨</h2>
+
+            <section>
+                <h3>מה נלמד בקורס:</h3>
+                <ul>
+                    <li>יסודות מכניקת הרכב - מהברגים ועד המנוע</li>
+                    <li>טיפולים שוטפים ותחזוקה חכמה</li>
+                    <li>זיהוי תקלות ופתרונן בשטח</li>
+                    <li>עבודה מעשית במוסך מקצועי</li>
+                    <li>ביטחון עצמי בעולם הרכב</li>
+                </ul>
+            </section>
+
+            <section class="why-us">
+                <h3>למה דווקא אצלנו?</h3>
+                <ul>
+                    <li>מדריכות מקצועיות עם ניסיון רב</li>
+                    <li>קבוצות קטנות ויחס אישי</li>
+                    <li>אווירה תומכת ומעצימה לנשים</li>
+                    <li>תעודת הסמכה בסיום הקורס</li>
+                </ul>
+            </section>
+        </article>
+
+        <footer>
+            <h3>הרשמה ופרטים:</h3>
+            <p>קים ועלמה - המוסכניקיות</p>
+            <p>טלפון: 050-1234567</p>
+            <p style="font-size: 18px; color: #ecf0f1;">מספר המקומות מוגבל - כל הקודמת זוכה!</p>
+            <a href="#registration-form" class="cta-button">הירשמי עכשיו</a>
+        </footer>
+
+        <div class="closing">
+            <p>"כי אישה שיודעת להחליף גלגל, יכולה להזיז את העולם" 🌍</p>
+            <p>* הקורס מתאים לכל אישה - גם אם את לא יודעת להבדיל בין מברג לפטיש! 🔨</p>
+        </div>
+
+        <div class="image-container">
+            <img src="images/image.jpeg" alt="נשים עובדות במוסך" >
+        </div>
+         <section id="course-details">
+            <h3>פרטי הקורס:</h3>
+            <p><b>משך הקורס:</b> 10 מפגשים, אחת לשבוע.</p>
+            <p><b>תאריכים:</b> ימי ראשון, 18:00-21:00, החל מה-15.7.2024.</p>
+            <p><b>מיקום:</b> המוסך שלנו, רחוב המלאכה 12, תל אביב.</p>
+            <p><b>עלות:</b> 1200 ש"ח (כולל מע"מ).</p>
+        </section>
+
+        <section id="registration-form">
+            <h3>טופס הרשמה:</h3>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">שם מלא:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">דוא"ל:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="phone">טלפון:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div>
+                    <label for="comments">הערות:</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="cta-button">שלחי</button>
+                </div>
+            </form>
+        </section>
     </div>
-</div>
+</body>
+</html>
